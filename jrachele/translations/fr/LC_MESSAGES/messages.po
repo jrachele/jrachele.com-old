@@ -1,0 +1,126 @@
+# French translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-21 18:26+0000\n"
+"PO-Revision-Date: 2018-07-21 18:31+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: templates/index.html:57
+msgid "about_me_meta_text"
+msgstr "Développeur web • Scientifique de données • Graphiste"
+
+#: templates/index.html:73
+msgid "showcase"
+msgstr "Travaux"
+
+#: templates/index.html:75
+msgid "Web dev"
+msgstr "Dév web"
+
+#: templates/index.html:76
+msgid "Data science"
+msgstr "Science de données"
+
+#: templates/index.html:77
+msgid "Graphic design"
+msgstr "Graphisme"
+
+#: templates/index.html:89
+msgid "curriculumx_info"
+msgstr ""
+"Créé avec <b>django</b> et <b>UIKit</b>, CurriculumX sert à aider des enseignants à trouver des leçons standarisées en accord avec l'état. J'ai écrit le côté serveur en Python et quelques parties du côté visuel avec l'aide d'UIKit. "
+
+#: templates/index.html:97
+msgid "dr_vasquez_site"
+msgstr "Dr. Paula Vasquez"
+
+#: templates/index.html:98
+msgid "dr_vasquez_info"
+msgstr "Au début, on m'a chargé de convertir des applications MATLAB pour internet. Néanmoins, vu que le site de Dr. Vasquez était obsolète, j'étais chargé de tout reproduire, en utilisant <b>Bootstrap</b> et <b>Plotly.js</b>."
+
+#: templates/index.html:117
+msgid "yeast_genome_link"
+msgstr "Visualisation du génome de levure"
+
+#: templates/index.html:118
+msgid "yeast_genome_info"
+msgstr ""
+"Une visualisation du génome de levure hébergée sur ce site, programmée en Python avec les libairies <b>Plotly</b> et <b>Dash</b>. J'ai également utilisé <b>Pandas</b>, <b>Numpy</b>, et <b>Scipy</b> pour la manipulation des données."
+
+#: templates/index.html:131
+msgid "portfolio_link"
+msgstr "Portfolio de graphisme"
+
+#: templates/index.html:132
+msgid "portfolio_info"
+msgstr "Je fais du graphisme volontairement depuis de nombreuses années chez Donate Life,  pour promouvoir la donation d'organes et de tissus en Caroline du Sud. Mon portfolio contient aussi quelques travaux personels."
+
+#: templates/index.html:140
+msgid "education_experience"
+msgstr "Éducation et Expérience"
+
+#: templates/index.html:142
+msgid "Class of 2020"
+msgstr "Terminant en 2020"
+
+#: templates/index.html:142
+msgid "usc_info"
+msgstr "Licence Science Informatique - University of South Carolina"
+
+#: templates/index.html:143 templates/index.html:144
+msgid "2018 - Now"
+msgstr "2018 - Aujourd'hui"
+
+#: templates/index.html:143
+msgid "curriculumx_fullstack"
+msgstr "Développeur Fullstack - CurriculumX"
+
+#: templates/index.html:144
+msgid "mathdep_datascience"
+msgstr "Scientifique de données - Département de Maths"
+
+#: templates/index.html:145
+msgid "2010 - Now"
+msgstr "2010 - Aujourd'hui"
+
+#: templates/index.html:145
+msgid "donatelife_volunteer"
+msgstr "Volontaire - Donate Life South Carolina"
+
+#: templates/index.html:146
+msgid "mathdep_web"
+msgstr "Développeur Web - Département de Maths"
+
+#: templates/index.html:147
+msgid "Class of 2016"
+msgstr "Diplômé en 2016"
+
+#: templates/index.html:147
+msgid "highschool"
+msgstr "au lycée - Wade Hamption High School"
+
+#: templates/index.html:150
+msgid "languages"
+msgstr "Langues et Langages"
+
+#: templates/index.html:154
+msgid "Web Stack"
+msgstr "HTML/CSS/JS"
+
+#: templates/index.html:155
+msgid "French"
+msgstr "Français"
+

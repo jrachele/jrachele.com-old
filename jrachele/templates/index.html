@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="static/img/favicon.ico">
+    
+    <!-- UIKit CSS -->
+    <link rel="stylesheet" href="static/css/uikit.min.css">
+    <!-- UIKit JS -->
+    <script src="static/js/uikit.min.js"></script>
+    <script src="static/js/uikit-icons.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <title>Julian Rachele</title>
+
+  </head>
+  <body class="site">
+    <div class="uk-section-muted uk-preserve-color" style="min-height: 100vh;">
+        <nav class="uk-navbar-container">
+            <div class="uk-container uk-container expand" uk-navbar>
+                <!-- <div class="uk-navbar-left">
+                    <a class="uk-navbar-toggle" uk-navbar-toggle-icon href=""></a>
+                </div> -->
+                
+                <div class="uk-navbar-center">
+                    <div class="uk-navbar-center-left">
+                        <a class="uk-active uk-navbar-item uk-link-muted" href="/?lang=en">en</a>
+                    </div>
+                    <span class="uk-navbar-item uk-logo">cv</span>
+                    <div class="uk-navbar-center-right">
+                        <a class="uk-active uk-navbar-item uk-link-muted" href="/?lang=fr">fr</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="uk-margin-large-left uk-margin-large-right uk-margin-medium-top">
+                <div class="uk-card uk-card-muted uk-card-body uk-box-shadow-large">
+                        <div class="uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" src="/static/img/self_portrait.png" style="width: 250px;">
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="uk-flex uk-flex-column">
+                                        <div>
+                                                <a href="https://www.github.com/jrachele" class="uk-icon-button uk-margin-small-right" uk-icon="github"></a>
+                                                <a href="https://www.linkedin.com/in/jrachele" class="uk-icon-button uk-margin-small-right" uk-icon="linkedin"></a>
+                                                <a href="https://www.behance.net/gallery/64225741/Portfolio" class="uk-icon-button  uk-margin-small-right" uk-icon="behance"></a>
+                                        </div>
+                                        <span class="uk-text-lead">Julian Rachele</span>
+                                        <span class="uk-text-meta">{{ _('about_me_meta_text') }}</span>
+                                        <div>
+                                            <i>Columbia, SC USA • julrachele@gmail.com • +1(864) 607-0061</i>
+                                        </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        
+                </div>
+        </div>
+
+        <div class="uk-margin-large-left uk-margin-large-right uk-margin-small-top uk-margin-bottom">
+            <div class="uk-child-width-1-2@l uk-margin-remove-left" uk-grid>
+                <div class="uk-card uk-card-primary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                    <h2>{{ _('showcase') }}</h2>
+                    <ul class="uk-child-width-expand" uk-tab>
+                        <li class="uk-active"><a href="#">{{ _('Web dev') }}</a></li>
+                        <li><a href="#">{{ _('Data science') }}</a></li>
+                        <li><a href="#">{{ _('Graphic design') }}</a></li>
+                    </ul>
+                    <ul class="uk-switcher uk-margin">
+                        <li>
+                            <ul class="uk-list uk-list-divider">
+                                <li>
+                                    <div class="uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <a href="https://www.curriculumx.org"><img src="/static/img/cx_square_white.png" style="width: 250px;"></a>
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <p><a href="https://www.curriculumx.org/">CurriculumX.org</a> - 
+                                                    {{ _('curriculumx_info')}} 
+                                                </p>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="uk-margin-top">
+                                    <div class="uk-flex-middle" uk-grid>
+                                            <div class="uk-width-expand">
+                                                <p><a href="http://people.math.sc.edu/vasquezp">{{ _('dr_vasquez_site') }}</a> - 
+                                                    {{ _('dr_vasquez_info') }}
+                                                </p>
+                                            </div>
+                                            <div class="uk-width-auto">
+                                                <a href="http://people.math.sc.edu/vasquezp"><img src="/static/img/usc_logo.png" style="width: 250px;"></a>
+                                            </div>
+                                        </div>
+                                </li>
+                            </ul>
+                            
+                        </li>
+
+
+                        <li>
+                            <div class="uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <a href="research"><img src="/static/img/plotly_logo.png" style="width: 250px;"></a>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <p><a href="research">{{ _('yeast_genome_link')}}</a> - 
+                                            {{ _('yeast_genome_info')}}
+                                        </p>
+                                    </div>
+                                </div>
+                        </li>
+
+
+                        <li>
+                            <div class="uk-flex-middle" uk-grid>
+                                    <div class="uk-width-auto">
+                                        <a href="https://www.behance.net/gallery/64225741/Portfolio"><img src="/static/img/behance_logo.png" style="width: 250px;"></a>
+                                    </div>
+                                    <div class="uk-width-expand">
+                                        <p><a href="https://www.behance.net/gallery/64225741/Portfolio">{{ _('portfolio_link')}}</a> - 
+                                            {{ _('portfolio_info')}}
+                                        </p>
+                                    </div>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-card uk-card-secondary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                    <h2>{{ _('education_experience')}}</h2>
+                    <ul class="uk-list uk-list-divider">
+                        <li><b>{{ _('Class of 2020') }}</b>   {{ _('usc_info') }}</li>
+                        <li><b>{{ _('2018 - Now') }}</b>   {{ _('curriculumx_fullstack') }}</li>
+                        <li><b>{{ _('2018 - Now') }}</b>   {{ _('mathdep_datascience') }}</li>
+                        <li><b>{{ _('2010 - Now') }}</b>   {{ _('donatelife_volunteer') }}</li>
+                        <li><b>2017</b> {{ _('mathdep_web') }}</li>
+                        <li><b>{{ _('Class of 2016') }}</b>    {{ _('highschool') }}</li>
+                    </ul>
+
+                    <h2>{{ _('languages') }}</h2>
+                    <ul class="uk-list uk-list-divider">
+                        <li><i>Python</i> - <span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span></li>
+                        <li><i>Java</i> - <span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span></li>
+                        <li><i>{{ _('Web Stack') }}</i> - <span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span></li>
+                        <li><i>{{ _('French') }}</i> - <span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span><span class="uk-margin-small-right" uk-icon="star"></span></li>
+                    </ul>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+
+  </body>
+</html>

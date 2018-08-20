@@ -1,0 +1,123 @@
+# Translations template for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-21 18:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: templates/index.html:57
+msgid "about_me_meta_text"
+msgstr "web developer • data scientist • graphic designer"
+
+#: templates/index.html:73
+msgid "showcase"
+msgstr ""
+
+#: templates/index.html:75
+msgid "Web dev"
+msgstr ""
+
+#: templates/index.html:76
+msgid "Data science"
+msgstr ""
+
+#: templates/index.html:77
+msgid "Graphic design"
+msgstr ""
+
+#: templates/index.html:89
+msgid "curriculumx_info"
+msgstr "Built with <b>django</b> and <b>UIKit</b>, I wrote all the business logic for this web application, which facilitates the union of state standards with material taught in schools. I also did much of the front end work with the help of the UIKit framework."
+
+#: templates/index.html:97
+msgid "dr_vasquez_site"
+msgstr "Dr. Paula Vasquez's Site"
+
+#: templates/index.html:98
+msgid "dr_vasquez_info"
+msgstr "I was originally to only port MATLAB applications to the web, though Dr. Vasquez's site needed an overhaul. Using <b>Bootstrap</b> and <b>Plotly.js</b>, I created a new stylish site and remade all the MATLAB applications to be web-friendly."
+
+#: templates/index.html:117
+msgid "yeast_genome_link"
+msgstr "Yeast Genome Visualization"
+
+#: templates/index.html:118
+msgid "yeast_genome_info"
+msgstr "I have created a 3d visualization of the yeast genome in Python, originally with Jupyter, that uses <b>Plotly</b>, <b>pandas</b>, <b>numpy</b>, and <b>scipy</b> to analyze large data sets representing chromatin location and mean square displacement, restricts the data in useful ways, optionally clusters similar data bits, and outputs a three-dimensional representation of the nucelus."
+
+#: templates/index.html:131
+msgid "portfolio_link"
+msgstr "Graphic Design Portfolio"
+
+#: templates/index.html:132
+msgid "portfolio_info"
+msgstr "Having volunteered with Donate Life South Carolina for years now, I have created numerous pieces of artwork to help promote Organ and Tissue Donation. I have also attached some creative works I made in my spare time."
+
+#: templates/index.html:140
+msgid "education_experience"
+msgstr "education & experience"
+
+#: templates/index.html:142
+msgid "Class of 2020"
+msgstr ""
+
+#: templates/index.html:142
+msgid "usc_info"
+msgstr "B.S. Computer Science - University of South Carolina"
+
+#: templates/index.html:143 templates/index.html:144
+msgid "2018 - Now"
+msgstr ""
+
+#: templates/index.html:143
+msgid "curriculumx_fullstack"
+msgstr "Fullstack Developer - CurriculumX.org"
+
+#: templates/index.html:144
+msgid "mathdep_datascience"
+msgstr "Data Scientist - UofSC Math Department"
+
+#: templates/index.html:145
+msgid "2010 - Now"
+msgstr ""
+
+#: templates/index.html:145
+msgid "donatelife_volunteer"
+msgstr "Volunteer - Donate Life South Carolina"
+
+#: templates/index.html:146
+msgid "mathdep_web"
+msgstr "Web Developer - UofSC Math Department"
+
+#: templates/index.html:147
+msgid "Class of 2016"
+msgstr ""
+
+#: templates/index.html:147
+msgid "highschool"
+msgstr "High School Diploma - Wade Hamption High School"
+
+#: templates/index.html:150
+msgid "languages"
+msgstr ""
+
+#: templates/index.html:154
+msgid "Web Stack"
+msgstr ""
+
+#: templates/index.html:155
+msgid "French"
+msgstr ""
+

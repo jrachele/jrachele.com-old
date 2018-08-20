@@ -1,0 +1,4 @@
+systemctl stop nginx
+systemctl stop gunicorn
+systemctl start nginx
+systemctl start gunicorn
