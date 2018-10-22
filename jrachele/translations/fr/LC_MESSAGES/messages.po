@@ -20,7 +20,7 @@ msgstr ""
 
 #: templates/index.html:60
 msgid "about_me_meta_text"
-msgstr "Développeur web • Scientifique de données • Graphiste"
+msgstr "Développeur web • Biologiste • Graphiste"
 
 #: templates/index.html:76
 msgid "showcase"
@@ -32,7 +32,7 @@ msgstr "Dév web"
 
 #: templates/index.html:79
 msgid "Data science"
-msgstr "Science de données"
+msgstr "Biologie"
 
 #: templates/index.html:80
 msgid "Graphic design"
@@ -60,11 +60,15 @@ msgstr ""
 
 #: templates/index.html:127
 msgid "protein_folding_link"
-msgstr ""
+msgstr "Repliement des Protéines avec REDCRAFT"
 
 #: templates/index.html:128
 msgid "protein_folding_info"
-msgstr ""
+msgstr "Je suis actuellement chargé d'optimiser et de faciliter l'utilisation "
+"d'un logiciel pour le repliement informatique des protéines. Au niveau d'optimisation, "
+"je fais du refactoring du code hértité en C++, et j'analyse l'efficacité de <b>REDCRAFT</b> à "
+"trouver la bonne configuration. De plus, je travaille actuellement à développer une GUI en "
+"Python pour utiliser REDCRAFT plus facilement. "
 
 #: templates/index.html:136
 msgid "yeast_genome_link"
@@ -107,7 +111,7 @@ msgstr "2018 - Aujourd'hui"
 
 #: templates/index.html:169
 msgid "valafar_datascience"
-msgstr ""
+msgstr "Assistant de Recherche - UofSC Computational Biology"
 
 #: templates/index.html:170
 msgid "curriculumx_fullstack"
@@ -143,19 +147,19 @@ msgstr "Langues et Langages"
 
 #: templates/index.html:179
 msgid "python_description"
-msgstr ""
+msgstr "Je suis compétent en Python et avec Django, les ayant utilisés depuis des années."
 
 #: templates/index.html:180
 msgid "js_description"
-msgstr ""
+msgstr "Récemment, j'apprends à utiliser React pour compléter mes compétences dans le front-end."
 
 #: templates/index.html:181
 msgid "java_description"
-msgstr ""
+msgstr "J'utilise amplement Java et je suis compétent en Play! pour développer des applications web."
 
 #: templates/index.html:182
 msgid "scala_description"
-msgstr ""
+msgstr "Depuis environ un an j'apprends à programmer fonctionnellement avec Scala."
 
 #: templates/index.html:183
 msgid "French"
@@ -163,7 +167,7 @@ msgstr "Français"
 
 #: templates/index.html:183
 msgid "french_description"
-msgstr ""
+msgstr "Je parle français au niveau C1, mais à l'écrit je suis niveau C2."
 
 #~ msgid "Web Stack"
 #~ msgstr "HTML/CSS/JS"
