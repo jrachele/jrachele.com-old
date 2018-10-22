@@ -20,7 +20,7 @@ msgstr ""
 
 #: templates/index.html:60
 msgid "about_me_meta_text"
-msgstr "Développeur web • Biologiste • Graphiste"
+msgstr "Étudiant en Informatique"
 
 #: templates/index.html:76
 msgid "showcase"
@@ -143,23 +143,23 @@ msgstr "au lycée - Wade Hamption High School"
 
 #: templates/index.html:177
 msgid "languages"
-msgstr "Langues et Langages"
+msgstr "Compétences"
 
 #: templates/index.html:179
 msgid "python_description"
-msgstr "Je suis compétent en Python et avec Django, les ayant utilisés depuis des années."
+msgstr "Compétence en Python et Django, les ayant utilisé pour plusieurs projets."
 
 #: templates/index.html:180
 msgid "js_description"
-msgstr "Récemment, j'apprends à utiliser React pour compléter mes compétences dans le front-end."
+msgstr "Compétence en JavaScript de base, et apprentissage de React/Redux."
 
 #: templates/index.html:181
 msgid "java_description"
-msgstr "J'utilise amplement Java et je suis compétent en Play! pour développer des applications web."
+msgstr "Maîtrise très bien Java, et connaissance en Play! Framework"
 
 #: templates/index.html:182
 msgid "scala_description"
-msgstr "Depuis environ un an j'apprends à programmer fonctionnellement avec Scala."
+msgstr "Compétence en Scala et dans le domaine de FP (Functional Programming)."
 
 #: templates/index.html:183
 msgid "French"

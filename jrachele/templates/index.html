@@ -22,12 +22,8 @@
 
 <body class="site">
     <div class="uk-section-muted uk-preserve-color" style="min-height: 100vh;">
-        <nav class="uk-navbar-container">
+        <!-- <nav class="uk-navbar-container">
             <div class="uk-container uk-container expand" uk-navbar>
-                <!-- <div class="uk-navbar-left">
-                    <a class="uk-navbar-toggle" uk-navbar-toggle-icon href=""></a>
-                </div> -->
-
                 <div class="uk-navbar-center">
                     <div class="uk-navbar-center-left">
                         <a class="uk-active uk-navbar-item uk-link-muted" href="/?lang=en">en</a>
@@ -38,7 +34,7 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav> -->
 
         <div class="uk-margin-large-left uk-margin-large-right uk-margin-medium-top">
             <div class="uk-card uk-card-muted uk-card-body uk-box-shadow-large">
@@ -62,6 +58,10 @@
                                 <i>Columbia, SC USA • julrachele@gmail.com • +1(864) 607-0061</i>
                             </div>
                         </div>
+                    </div>
+                    <div class="uk-width-auto">
+                        <div class="uk-flex-inline"><a class="uk-active uk-navbar-item uk-link-muted" href="/?lang=en">EN</a><a
+                                class="uk-active uk-navbar-item uk-link-muted" href="/?lang=fr">FR</a></div>
                     </div>
 
                 </div>
@@ -122,7 +122,10 @@
 
         <div class="uk-margin-large-left uk-margin-large-right uk-margin-small-top uk-margin-bottom">
             <div class="uk-child-width-1-2@l uk-margin-remove-left" uk-grid>
-                <div class="uk-card uk-card-primary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                <div class="uk-card uk-card-muted uk-dark uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+
+                </div>
+                <div class="uk-card uk-card-primary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                     <h2>{{ _('showcase') }}</h2>
                     <ul class="uk-child-width-expand" uk-tab>
                         <li class="uk-active"><a href="#">{{ _('Web dev') }}</a></li>
@@ -194,8 +197,6 @@
                                 </li>
                             </ul>
                         </li>
-
-
                         <li>
                             <div class="uk-flex-middle" uk-grid>
                                 <div class="uk-width-auto">
@@ -212,32 +213,36 @@
                         </li>
                     </ul>
                 </div>
-                <div class="uk-card uk-card-secondary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-                    <h2>{{ _('education_experience')}}</h2>
-                    <ul class="uk-list uk-list-divider">
-                        <li><b>{{ _('Class of 2020') }}</b> {{ _('usc_info') }}</li>
-                        <li><b>{{ _('2018 - Now') }}</b> {{ _('valafar_datascience') }}</li>
-                        <li><b>{{ _('2018 - Now') }}</b> {{ _('curriculumx_fullstack') }}</li>
-                        <li><b>{{ _('2010 - Now') }}</b> {{ _('donatelife_volunteer') }}</li>
-                        <li><b>2018</b> {{ _('mathdep_datascience') }}</li>
-                        <li><b>2017</b> {{ _('mathdep_web') }}</li>
-                        <li><b>{{ _('Class of 2016') }}</b> {{ _('highschool') }}</li>
-                    </ul>
-
-                    <h2>{{ _('languages') }}</h2>
-                    <ul class="uk-list uk-list-divider">
-                        <li><i>Python/Django</i> - {{ _('python_description') }}</li>
-                        <li><i>JavaScript/React</i> - {{ _('js_description') }}</li>
-                        <li><i>Java</i> - {{ _('java_description') }}</li>
-                        <li><i>Scala/FP</i> - {{ _('scala_description') }}</li>
-                        <li><i>{{ _('French') }}</i> - {{ _('french_description') }}</li>
-                    </ul>
-
-
+            </div>
+        </div>
+        <div class="uk-margin-large-left uk-margin-large-right uk-margin-small-top uk-margin-bottom">
+            <div class="uk-card uk-card-secondary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <div class="uk-child-width-1-2@l uk-margin-remove-left" uk-grid>
+                    <div>
+                        <h2>{{ _('education_experience')}}</h2>
+                        <ul class="uk-list uk-list-divider">
+                            <li><b>{{ _('Class of 2020') }}</b> {{ _('usc_info') }}</li>
+                            <li><b>{{ _('2018 - Now') }}</b> {{ _('valafar_datascience') }}</li>
+                            <li><b>{{ _('2018 - Now') }}</b> {{ _('curriculumx_fullstack') }}</li>
+                            <li><b>{{ _('2010 - Now') }}</b> {{ _('donatelife_volunteer') }}</li>
+                            <li><b>2018</b> {{ _('mathdep_datascience') }}</li>
+                            <li><b>2017</b> {{ _('mathdep_web') }}</li>
+                            <li><b>{{ _('Class of 2016') }}</b> {{ _('highschool') }}</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>{{ _('languages') }}</h2>
+                        <ul class="uk-list uk-list-divider">
+                            <li><i>Python/Django</i> - {{ _('python_description') }}</li>
+                            <li><i>JavaScript/React</i> - {{ _('js_description') }}</li>
+                            <li><i>Java</i> - {{ _('java_description') }}</li>
+                            <li><i>Scala/FP</i> - {{ _('scala_description') }}</li>
+                            <li><i>{{ _('French') }}</i> - {{ _('french_description') }}</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
 
 
