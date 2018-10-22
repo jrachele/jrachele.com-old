@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-07-21 18:26+0000\n"
+"POT-Creation-Date: 2018-10-22 14:19+0000\n"
 "PO-Revision-Date: 2018-07-21 18:32+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -18,108 +18,166 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: templates/index.html:57
+#: templates/index.html:60
 msgid "about_me_meta_text"
 msgstr "Web developer • Data scientist • Graphic designer"
 
-#: templates/index.html:73
+#: templates/index.html:76
 msgid "showcase"
 msgstr "Showcase"
 
-#: templates/index.html:75
+#: templates/index.html:78
 msgid "Web dev"
 msgstr ""
 
-#: templates/index.html:76
+#: templates/index.html:79
 msgid "Data science"
 msgstr ""
 
-#: templates/index.html:77
+#: templates/index.html:80
 msgid "Graphic design"
 msgstr ""
 
-#: templates/index.html:89
+#: templates/index.html:93
 msgid "curriculumx_info"
 msgstr ""
-"Built with <b>django</b> and <b>UIKit</b>, I wrote all the business logic for this web application, which facilitates the union of state standards with material taught in schools. I also did much of the front end work with the help of the UIKit framework."
+"Built with <b>django</b> and <b>UIKit</b>, I wrote all the business logic"
+" for this web application, which facilitates the union of state standards"
+" with material taught in schools. I also did much of the front end work "
+"with the help of the UIKit framework."
 
-#: templates/index.html:97
+#: templates/index.html:101
 msgid "dr_vasquez_site"
 msgstr "Dr. Paula Vasquez"
 
-#: templates/index.html:98
+#: templates/index.html:103
 msgid "dr_vasquez_info"
-msgstr "I was originally to only port MATLAB applications to the web, though Dr. Vasquez's site needed an overhaul. Using <b>Bootstrap</b> and <b>Plotly.js</b>, I created a new stylish site and remade all the MATLAB applications to be web-friendly."
+msgstr ""
+"I was originally to only port MATLAB applications to the web, though Dr. "
+"Vasquez's site needed an overhaul. Using <b>Bootstrap</b> and "
+"<b>Plotly.js</b>, I created a new stylish site and remade all the MATLAB "
+"applications to be web-friendly."
 
-#: templates/index.html:117
+#: templates/index.html:127
+msgid "protein_folding_link"
+msgstr "REDCRAFT Protein Folding"
+
+#: templates/index.html:128
+msgid "protein_folding_info"
+msgstr ""
+"I am currently aiding computational biologists in the optimization and "
+"facilitation of use of <b>REDCRAFT</b>, a software suite for "
+"computational protein folding written in C++. I have so far written "
+"several  Python scripts to aid in data conversion for the software and I "
+"am working on implementing a graphical interface as well as optimizing "
+"some of the heavy-hitting computational areas."
+
+#: templates/index.html:136
 msgid "yeast_genome_link"
 msgstr "Yeast Genome Visualization"
 
-#: templates/index.html:118
+#: templates/index.html:137
 msgid "yeast_genome_info"
-msgstr "I have created a 3d visualization of the yeast genome in Python, originally with Jupyter, that uses <b>Plotly</b>, <b>pandas</b>, <b>numpy</b>, and <b>scipy</b> to analyze large data sets representing chromatin location and mean square displacement, restricts the data in useful ways, optionally clusters similar data bits, and outputs a three-dimensional representation of the nucelus."
+msgstr ""
+"I have created a 3d visualization of the yeast genome in Python, "
+"originally with Jupyter, that uses <b>Plotly</b>, <b>pandas</b>, "
+"<b>numpy</b>, and <b>scipy</b> to analyze large data sets representing "
+"chromatin location and mean square displacement, restricts the data in "
+"useful ways, optionally clusters similar data bits, and outputs a three-"
+"dimensional representation of the nucelus."
 
-#: templates/index.html:131
+#: templates/index.html:157
 msgid "portfolio_link"
 msgstr "Graphic Design Portfolio"
 
-#: templates/index.html:132
+#: templates/index.html:158
 msgid "portfolio_info"
-msgstr "Having volunteered with Donate Life South Carolina for years now, I have created numerous pieces of artwork to help promote Organ and Tissue Donation. I have also attached some creative works I made in my spare time."
+msgstr ""
+"Having volunteered with Donate Life South Carolina for years now, I have "
+"created numerous pieces of artwork to help promote Organ and Tissue "
+"Donation. I have also attached some creative works I made in my spare "
+"time."
 
-#: templates/index.html:140
+#: templates/index.html:166
 msgid "education_experience"
 msgstr "Education & Experience"
 
-#: templates/index.html:142
+#: templates/index.html:168
 msgid "Class of 2020"
 msgstr ""
 
-#: templates/index.html:142
+#: templates/index.html:168
 msgid "usc_info"
 msgstr "B.S. Computer Science - University of South Carolina"
 
-#: templates/index.html:143 templates/index.html:144
+#: templates/index.html:169 templates/index.html:170
 msgid "2018 - Now"
 msgstr ""
 
-#: templates/index.html:143
+#: templates/index.html:169
+msgid "valafar_datascience"
+msgstr "Research Assistant - UofSC Computational Biology"
+
+#: templates/index.html:170
 msgid "curriculumx_fullstack"
 msgstr "Fullstack Developer - CurriculumX.org"
 
-#: templates/index.html:144
-msgid "mathdep_datascience"
-msgstr "Data Scientist - UofSC Math Department"
-
-#: templates/index.html:145
+#: templates/index.html:171
 msgid "2010 - Now"
 msgstr ""
 
-#: templates/index.html:145
+#: templates/index.html:171
 msgid "donatelife_volunteer"
 msgstr "Volunteer - Donate Life South Carolina"
 
-#: templates/index.html:146
+#: templates/index.html:172
+msgid "mathdep_datascience"
+msgstr "Data Scientist - UofSC Math Department"
+
+#: templates/index.html:173
 msgid "mathdep_web"
 msgstr "Web Developer - UofSC Math Department"
 
-#: templates/index.html:147
+#: templates/index.html:174
 msgid "Class of 2016"
 msgstr ""
 
-#: templates/index.html:147
+#: templates/index.html:174
 msgid "highschool"
 msgstr "High School Diploma - Wade Hamption High School"
 
-#: templates/index.html:150
+#: templates/index.html:177
 msgid "languages"
 msgstr "Languages"
 
-#: templates/index.html:154
-msgid "Web Stack"
-msgstr ""
+#: templates/index.html:179
+msgid "python_description"
+msgstr "I am competent in Python and Django, having used them for years."
 
-#: templates/index.html:155
+#: templates/index.html:180
+msgid "js_description"
+msgstr ""
+"I have recently been learning to use React to supplement my front-end "
+"knowledge."
+
+#: templates/index.html:181
+msgid "java_description"
+msgstr "I have used Java extensively and I am familiar with the Play! framework. "
+
+#: templates/index.html:182
+msgid "scala_description"
+msgstr ""
+"Within the past year I have learned Scala and much about Functional "
+"Programming."
+
+#: templates/index.html:183
 msgid "French"
 msgstr ""
+
+#: templates/index.html:183
+msgid "french_description"
+msgstr "I speak French at a C1 level, but read and write at C2."
+
+#~ msgid "Web Stack"
+#~ msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-07-21 18:26+0000\n"
+"POT-Creation-Date: 2018-10-22 14:19+0000\n"
 "PO-Revision-Date: 2018-07-21 18:31+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -18,109 +18,153 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: templates/index.html:57
+#: templates/index.html:60
 msgid "about_me_meta_text"
 msgstr "Développeur web • Scientifique de données • Graphiste"
 
-#: templates/index.html:73
+#: templates/index.html:76
 msgid "showcase"
 msgstr "Travaux"
 
-#: templates/index.html:75
+#: templates/index.html:78
 msgid "Web dev"
 msgstr "Dév web"
 
-#: templates/index.html:76
+#: templates/index.html:79
 msgid "Data science"
 msgstr "Science de données"
 
-#: templates/index.html:77
+#: templates/index.html:80
 msgid "Graphic design"
 msgstr "Graphisme"
 
-#: templates/index.html:89
+#: templates/index.html:93
 msgid "curriculumx_info"
 msgstr ""
-"Créé avec <b>django</b> et <b>UIKit</b>, CurriculumX sert à aider des enseignants à trouver des leçons standarisées en accord avec l'état. J'ai écrit le côté serveur en Python et quelques parties du côté visuel avec l'aide d'UIKit. "
+"Créé avec <b>django</b> et <b>UIKit</b>, CurriculumX sert à aider des "
+"enseignants à trouver des leçons standarisées en accord avec l'état. J'ai"
+" écrit le côté serveur en Python et quelques parties du côté visuel avec "
+"l'aide d'UIKit. "
 
-#: templates/index.html:97
+#: templates/index.html:101
 msgid "dr_vasquez_site"
 msgstr "Dr. Paula Vasquez"
 
-#: templates/index.html:98
+#: templates/index.html:103
 msgid "dr_vasquez_info"
-msgstr "Au début, on m'a chargé de convertir des applications MATLAB pour internet. Néanmoins, vu que le site de Dr. Vasquez était obsolète, j'étais chargé de tout reproduire, en utilisant <b>Bootstrap</b> et <b>Plotly.js</b>."
+msgstr ""
+"Au début, on m'a chargé de convertir des applications MATLAB pour "
+"internet. Néanmoins, vu que le site de Dr. Vasquez était obsolète, "
+"j'étais chargé de tout reproduire, en utilisant <b>Bootstrap</b> et "
+"<b>Plotly.js</b>."
 
-#: templates/index.html:117
+#: templates/index.html:127
+msgid "protein_folding_link"
+msgstr ""
+
+#: templates/index.html:128
+msgid "protein_folding_info"
+msgstr ""
+
+#: templates/index.html:136
 msgid "yeast_genome_link"
 msgstr "Visualisation du génome de levure"
 
-#: templates/index.html:118
+#: templates/index.html:137
 msgid "yeast_genome_info"
 msgstr ""
-"Une visualisation du génome de levure hébergée sur ce site, programmée en Python avec les libairies <b>Plotly</b> et <b>Dash</b>. J'ai également utilisé <b>Pandas</b>, <b>Numpy</b>, et <b>Scipy</b> pour la manipulation des données."
+"Une visualisation du génome de levure hébergée sur ce site, programmée en"
+" Python avec les libairies <b>Plotly</b> et <b>Dash</b>. J'ai également "
+"utilisé <b>Pandas</b>, <b>Numpy</b>, et <b>Scipy</b> pour la manipulation"
+" des données."
 
-#: templates/index.html:131
+#: templates/index.html:157
 msgid "portfolio_link"
 msgstr "Portfolio de graphisme"
 
-#: templates/index.html:132
+#: templates/index.html:158
 msgid "portfolio_info"
-msgstr "Je fais du graphisme volontairement depuis de nombreuses années chez Donate Life,  pour promouvoir la donation d'organes et de tissus en Caroline du Sud. Mon portfolio contient aussi quelques travaux personels."
+msgstr ""
+"Je fais du graphisme volontairement depuis de nombreuses années chez "
+"Donate Life,  pour promouvoir la donation d'organes et de tissus en "
+"Caroline du Sud. Mon portfolio contient aussi quelques travaux personels."
 
-#: templates/index.html:140
+#: templates/index.html:166
 msgid "education_experience"
 msgstr "Éducation et Expérience"
 
-#: templates/index.html:142
+#: templates/index.html:168
 msgid "Class of 2020"
 msgstr "Terminant en 2020"
 
-#: templates/index.html:142
+#: templates/index.html:168
 msgid "usc_info"
 msgstr "Licence Science Informatique - University of South Carolina"
 
-#: templates/index.html:143 templates/index.html:144
+#: templates/index.html:169 templates/index.html:170
 msgid "2018 - Now"
 msgstr "2018 - Aujourd'hui"
 
-#: templates/index.html:143
+#: templates/index.html:169
+msgid "valafar_datascience"
+msgstr ""
+
+#: templates/index.html:170
 msgid "curriculumx_fullstack"
 msgstr "Développeur Fullstack - CurriculumX"
 
-#: templates/index.html:144
-msgid "mathdep_datascience"
-msgstr "Scientifique de données - Département de Maths"
-
-#: templates/index.html:145
+#: templates/index.html:171
 msgid "2010 - Now"
 msgstr "2010 - Aujourd'hui"
 
-#: templates/index.html:145
+#: templates/index.html:171
 msgid "donatelife_volunteer"
 msgstr "Volontaire - Donate Life South Carolina"
 
-#: templates/index.html:146
+#: templates/index.html:172
+msgid "mathdep_datascience"
+msgstr "Scientifique de données - Département de Maths"
+
+#: templates/index.html:173
 msgid "mathdep_web"
 msgstr "Développeur Web - Département de Maths"
 
-#: templates/index.html:147
+#: templates/index.html:174
 msgid "Class of 2016"
 msgstr "Diplômé en 2016"
 
-#: templates/index.html:147
+#: templates/index.html:174
 msgid "highschool"
 msgstr "au lycée - Wade Hamption High School"
 
-#: templates/index.html:150
+#: templates/index.html:177
 msgid "languages"
 msgstr "Langues et Langages"
 
-#: templates/index.html:154
-msgid "Web Stack"
-msgstr "HTML/CSS/JS"
+#: templates/index.html:179
+msgid "python_description"
+msgstr ""
 
-#: templates/index.html:155
+#: templates/index.html:180
+msgid "js_description"
+msgstr ""
+
+#: templates/index.html:181
+msgid "java_description"
+msgstr ""
+
+#: templates/index.html:182
+msgid "scala_description"
+msgstr ""
+
+#: templates/index.html:183
 msgid "French"
 msgstr "Français"
+
+#: templates/index.html:183
+msgid "french_description"
+msgstr ""
+
+#~ msgid "Web Stack"
+#~ msgstr "HTML/CSS/JS"
 
