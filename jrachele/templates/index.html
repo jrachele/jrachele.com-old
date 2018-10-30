@@ -52,17 +52,37 @@
                                 <a href="https://www.behance.net/gallery/64225741/Portfolio" class="uk-icon-button  uk-margin-small-right"
                                     uk-icon="behance"></a>
                             </div>
-                            <span class="uk-text-lead">Julian Rachele</span>
-                            <span class="uk-text-meta">{{ _('about_me_meta_text') }}</span>
+
+                            <div class="uk-flex" uk-grid>
+                                <div class="uk-flex uk-flex-column">
+                                    <span class="uk-text-lead">Julian Rachele</span>
+
+                                    <span class="uk-text-meta">{{ _('about_me_meta_text') }}</span>
+                                </div>
+                                <div class="uk-flex uk-flex-column">
+
+                                    <a class="uk-link-muted uk-margin-small-bottom" href="/?lang=en" uk-tooltip="English Version"><img
+                                            src="static/img/us.svg" style="min-height: 21px; min-width: 28px;" /></a>
+                                    <a class="uk-link-muted" href="/?lang=fr" uk-tooltip="Version Française"><img src="static/img/fr.svg"
+                                            style="min-height: 21px; min-width: 28px;" /></a>
+                                </div>
+                            </div>
+
+
                             <div>
                                 <i>Columbia, SC USA • julrachele@gmail.com • +1(864) 607-0061</i>
                             </div>
+
                         </div>
                     </div>
-                    <div class="uk-width-auto">
-                        <div class="uk-flex-inline"><a class="uk-active uk-navbar-item uk-link-muted" href="/?lang=en">EN</a><a
-                                class="uk-active uk-navbar-item uk-link-muted" href="/?lang=fr">FR</a></div>
-                    </div>
+                    <!-- <div class="uk-width-auto">
+                        <div class="uk-flex">
+                            <a class="uk-link-muted uk-navbar-item" href="/?lang=en" uk-tooltip="English Version"><img
+                                    src="static/img/us.svg" style="min-height: 21px; min-width: 28px;" /></a>
+                            <a class="uk-link-muted uk-navbar-item" href="/?lang=fr" uk-tooltip="Version Française"><img
+                                    src="static/img/fr.svg" style="min-height: 21px; min-width: 28px;" /></a>
+                        </div>
+                    </div> -->
 
                 </div>
 
@@ -122,10 +142,11 @@
 
         <div class="uk-margin-large-left uk-margin-large-right uk-margin-small-top uk-margin-bottom">
             <div class="uk-child-width-1-2@l uk-margin-remove-left" uk-grid>
-                <div class="uk-card uk-card-muted uk-dark uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-
+                <div class="uk-card uk-card-muted uk-dark uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+                    <h1 class="uk-heading-primary">{{ _('About Me') }}</h1>
+                    <p>{{ _('about_me_description') }}</p>
                 </div>
-                <div class="uk-card uk-card-primary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                <div class="uk-card uk-card-primary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-fade; repeat: true">
                     <h2>{{ _('showcase') }}</h2>
                     <ul class="uk-child-width-expand" uk-tab>
                         <li class="uk-active"><a href="#">{{ _('Web dev') }}</a></li>
@@ -163,10 +184,7 @@
                                     </div>
                                 </li>
                             </ul>
-
                         </li>
-
-
                         <li>
                             <ul class="uk-list uk-list-divider">
                                 <li>
@@ -216,7 +234,7 @@
             </div>
         </div>
         <div class="uk-margin-large-left uk-margin-large-right uk-margin-small-top uk-margin-bottom">
-            <div class="uk-card uk-card-secondary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div class="uk-card uk-card-secondary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-fade; repeat: true">
                 <div class="uk-child-width-1-2@l uk-margin-remove-left" uk-grid>
                     <div>
                         <h2>{{ _('education_experience')}}</h2>
