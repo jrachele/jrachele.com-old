@@ -1,5 +1,7 @@
 import flask
 from flask_caching import Cache
+from flask import request, render_template_string
+from datetime import datetime
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -14,6 +16,9 @@ import numpy as np
 import pandas as pd
 from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
 import plotly.graph_objs as go
+
+# Raspberry pi test
+
 # Static site serving
 server = flask.Flask(__name__)
 server.config['BABEL_DEFAULT_LOCALE'] = 'en'
@@ -22,6 +27,17 @@ babel = Babel(server)
 @server.route('/')
 def main_page():
     return flask.render_template('index.html')
+
+arduino_string = "No updates"
+@server.route('/pi')
+def arduino(): 
+    return render_template_string(str(pi_val))
+
+@server.route('/pi/<f>')
+def arduino_param(f):
+    global pi_val
+    pi_val = int(f)
+    return render_template_string("Updated the tet")
 
 @babel.localeselector
 def get_locale():

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-22 21:41+0000\n"
+"POT-Creation-Date: 2019-12-10 23:58+0000\n"
 "PO-Revision-Date: 2018-07-21 18:32+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -18,72 +18,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: templates/index.html:56
+#: templates/index.html:78
 msgid "about_me_meta_text"
 msgstr "Web developer • Data scientist • Graphic designer"
 
-#: templates/index.html:86 templates/index.html:185
+#: templates/index.html:128 templates/index.html:198
 msgid "protein_folding_link"
 msgstr "REDCRAFT Protein Folding"
 
-#: templates/index.html:95 templates/index.html:194
+#: templates/index.html:137 templates/index.html:211
 msgid "yeast_genome_link"
 msgstr "Yeast Genome Visualization"
 
-#: templates/index.html:111 templates/index.html:159
+#: templates/index.html:145 templates/index.html:223
 msgid "dr_vasquez_site"
 msgstr "Dr. Paula Vasquez"
 
-#: templates/index.html:130
+#: templates/index.html:164
 msgid "About Me"
 msgstr ""
 
-#: templates/index.html:131
+#: templates/index.html:165
 msgid "about_me_description"
-msgstr "I have always been intrigued by the idea of creating something, by bringing something from my mental playground into the real world. "
-"This fascination has driven me to take up hobbies that involve building something up, little by little, into something great. "
-"This site is a culmination of some of my work and stems from my first and principal hobby, computing. "
-"<br><br>I love working with computers as they are integral to our lives and I can create tools that everyone can use. "
-"There's always something new and exciting to work on, and something persistent to maintain. It's relaxing. "
-"<br><br>I love learning French and about Francophone cultures because they allow me to change perspective. "
-"It is through my love of speaking to others in their native tongue that inspired my strive to French proficiency. "
-"<br><br>I love playing the piano because its endless combinations of sounds last the test of time. "
-"The piano can convey the emotion someone felt many generations before you were born. "
-"<br><br>My goal here is to change the world the best that I can, and that's what I plan to do. "
+msgstr ""
+"I am currently a Computer Science undergraduate at the University of South Carolina. "
+"I will be graduating in May 2020 with a Bachelor's degree, but I will continue for an "
+"extra year to receive my Masters. <br><br>"
+"I am interested in software engineering as a whole and have experience mobile app development, "
+"UI development, and full stack web development, but I have particular interests in "
+"the fields of compiler design, artificial intelligence, and algorithmic design. <br><br>"
+"My interests include studying foreign languages, cooking, and playing the piano. "
+"I am also a little competitive and enjoy playing video games with friends.<br><br>"
 
-#: templates/index.html:134
+#: templates/index.html:168
 msgid "showcase"
 msgstr "Showcase"
 
-#: templates/index.html:136
-msgid "Web dev"
+#: templates/index.html:170
+msgid "Recent work"
 msgstr ""
 
-#: templates/index.html:137
-msgid "Data science"
+#: templates/index.html:171
+msgid "Earlier work"
 msgstr ""
 
-#: templates/index.html:138
+#: templates/index.html:172
 msgid "Graphic design"
 msgstr ""
 
-#: templates/index.html:151
-msgid "curriculumx_info"
+#: templates/index.html:185
+msgid "asterion_info"
 msgstr ""
-"Built with <b>django</b> and <b>UIKit</b>, I wrote all the business logic"
-" for this web application, which facilitates the union of state standards"
-" with material taught in schools. I also did much of the front end work "
-"with the help of the UIKit framework."
+"In the Summer of 2019, I lived and worked in western France as "
+"an intern for Astérion VR, where I produced a C++ implementation "
+"of a specialized AI pattern for use in Unreal Engine, which "
+"improved a simulation product aiding French counter-terrorist "
+"operations."
 
-#: templates/index.html:161
-msgid "dr_vasquez_info"
-msgstr ""
-"I was originally to only port MATLAB applications to the web, though Dr. "
-"Vasquez's site needed an overhaul. Using <b>Bootstrap</b> and "
-"<b>Plotly.js</b>, I created a new stylish site and remade all the MATLAB "
-"applications to be web-friendly."
-
-#: templates/index.html:186
+#: templates/index.html:199
 msgid "protein_folding_info"
 msgstr ""
 "I am currently aiding computational biologists in the optimization and "
@@ -93,7 +85,7 @@ msgstr ""
 "am working on implementing a graphical interface as well as optimizing "
 "some of the heavy-hitting computational areas."
 
-#: templates/index.html:195
+#: templates/index.html:212
 msgid "yeast_genome_info"
 msgstr ""
 "I have created a 3d visualization of the yeast genome in Python, "
@@ -103,11 +95,19 @@ msgstr ""
 "useful ways, optionally clusters similar data bits, and outputs a three-"
 "dimensional representation of the nucelus."
 
-#: templates/index.html:213
+#: templates/index.html:225
+msgid "dr_vasquez_info"
+msgstr ""
+"I was originally to only port MATLAB applications to the web, though Dr. "
+"Vasquez's site needed an overhaul. Using <b>Bootstrap</b> and "
+"<b>Plotly.js</b>, I created a new stylish site and remade all the MATLAB "
+"applications to be web-friendly."
+
+#: templates/index.html:244
 msgid "portfolio_link"
 msgstr "Graphic Design Portfolio"
 
-#: templates/index.html:214
+#: templates/index.html:245
 msgid "portfolio_info"
 msgstr ""
 "Having volunteered with Donate Life South Carolina for years now, I have "
@@ -115,86 +115,113 @@ msgstr ""
 "Donation. I have also attached some creative works I made in my spare "
 "time."
 
-#: templates/index.html:227
+#: templates/index.html:258
 msgid "education_experience"
 msgstr "Education & Experience"
 
-#: templates/index.html:229
+#: templates/index.html:260
 msgid "Class of 2020"
 msgstr ""
 
-#: templates/index.html:229
+#: templates/index.html:260
 msgid "usc_info"
 msgstr "B.S. Computer Science - University of South Carolina"
 
-#: templates/index.html:230 templates/index.html:231
+#: templates/index.html:261 templates/index.html:262
 msgid "2018 - Now"
 msgstr ""
 
-#: templates/index.html:230
+#: templates/index.html:261
 msgid "valafar_datascience"
 msgstr "Research Assistant - UofSC Computational Biology"
 
-#: templates/index.html:231
+#: templates/index.html:262
 msgid "curriculumx_fullstack"
 msgstr "Fullstack Developer - CurriculumX.org"
 
-#: templates/index.html:232
+#: templates/index.html:263
 msgid "2010 - Now"
 msgstr ""
 
-#: templates/index.html:232
+#: templates/index.html:263
 msgid "donatelife_volunteer"
 msgstr "Volunteer - Donate Life South Carolina"
 
-#: templates/index.html:233
+#: templates/index.html:264
 msgid "mathdep_datascience"
 msgstr "Data Scientist - UofSC Math Department"
 
-#: templates/index.html:234
+#: templates/index.html:265
 msgid "mathdep_web"
 msgstr "Web Developer - UofSC Math Department"
 
-#: templates/index.html:235
+#: templates/index.html:266
 msgid "Class of 2016"
 msgstr ""
 
-#: templates/index.html:235
+#: templates/index.html:266
 msgid "highschool"
 msgstr "High School Diploma - Wade Hamption High School"
 
-#: templates/index.html:239
+#: templates/index.html:270
 msgid "languages"
 msgstr "Languages"
 
-#: templates/index.html:241
+#: templates/index.html:272
+msgid "haskell_description"
+msgstr "I am fairly proficient in Haskell, and have written an interpreter with it."
+
+#: templates/index.html:273
 msgid "python_description"
 msgstr "I am competent in Python and Django, having used them for years."
 
-#: templates/index.html:242
+#: templates/index.html:274
+msgid "cpp_description"
+msgstr "C++ is the language I have used the most for work-related projects."
+
+#: templates/index.html:275
 msgid "js_description"
 msgstr ""
 "I have recently been learning to use React to supplement my front-end "
 "knowledge."
 
-#: templates/index.html:243
-msgid "java_description"
-msgstr "I have used Java extensively and I am familiar with the Play! framework. "
-
-#: templates/index.html:244
-msgid "scala_description"
-msgstr ""
-"Within the past year I have learned Scala and much about Functional "
-"Programming."
-
-#: templates/index.html:245
+#: templates/index.html:276
 msgid "French"
 msgstr ""
 
-#: templates/index.html:245
+#: templates/index.html:276
 msgid "french_description"
 msgstr "I speak French at a C1 level, but read and write at C2."
 
 #~ msgid "Web Stack"
+#~ msgstr ""
+
+#~ msgid "curriculumx_info"
+#~ msgstr ""
+#~ "Built with <b>django</b> and <b>UIKit</b>, "
+#~ "I wrote all the business logic for"
+#~ " this web application, which facilitates"
+#~ " the union of state standards with"
+#~ " material taught in schools. I also"
+#~ " did much of the front end work"
+#~ " with the help of the UIKit "
+#~ "framework."
+
+#~ msgid "java_description"
+#~ msgstr ""
+#~ "I have used Java extensively and I"
+#~ " am familiar with the Play! "
+#~ "framework. "
+
+#~ msgid "scala_description"
+#~ msgstr ""
+#~ "Within the past year I have "
+#~ "learned Scala and much about Functional"
+#~ " Programming."
+
+#~ msgid "Web dev"
+#~ msgstr ""
+
+#~ msgid "Data science"
 #~ msgstr ""
 

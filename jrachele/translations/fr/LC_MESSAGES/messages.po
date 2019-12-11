@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-10-22 21:41+0000\n"
+"POT-Creation-Date: 2019-12-10 23:58+0000\n"
 "PO-Revision-Date: 2018-07-21 18:31+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -18,72 +18,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: templates/index.html:56
+#: templates/index.html:78
 msgid "about_me_meta_text"
 msgstr "Étudiant en Informatique"
 
-#: templates/index.html:86 templates/index.html:185
+#: templates/index.html:128 templates/index.html:198
 msgid "protein_folding_link"
 msgstr "Repliement des Protéines avec REDCRAFT"
 
-#: templates/index.html:95 templates/index.html:194
+#: templates/index.html:137 templates/index.html:211
 msgid "yeast_genome_link"
 msgstr "Visualisation du génome de levure"
 
-#: templates/index.html:111 templates/index.html:159
+#: templates/index.html:145 templates/index.html:223
 msgid "dr_vasquez_site"
 msgstr "Dr. Paula Vasquez"
 
-#: templates/index.html:130
+#: templates/index.html:164
 msgid "About Me"
 msgstr "Profil"
 
-#: templates/index.html:131
+#: templates/index.html:165
 msgid "about_me_description"
-msgstr "L'idée de créer quelque chose, en ramenant un concept mental dans le domaine physique m'a toujours intrigué. "
-"C'est cette fascination qui m'a mené à trouver des hobbies qui entraînent l'idée de construire, à partir de plusieurs petits éléments, quelque chose d'extraordinaire. "
-"Ce site représente le résumé des exemples de mon travail, provenant de mon premier passe-temps, et mon préféré, l'informatique. "
-"<br><br>J'aime travailler en informatique puisque nous habitons dans l'Age Numérique et c'est un moyen puissant de changer les vies des autres. "
-"Il y a toujours quelque chose de nouveau à découvrir, et quelque chose de persistant à maintenir. "
-"<br><br>J'aime l'apprentissage de la langue française et des cultures francophones car ça me permet de changer mon point de vue. "
-"C'est via mon amour de converser avec une personne dans sa langue maternelle qui m'a mené à aller jusqu'au fond avec le français. "
-"<br><br>J'aime jouer du piano parce que ses combinaisons infinies des bruits sont à l'épreuve du temps. "
-"Le piano peut convoyer l'émotion que ressentait quelqu'un plusieurs générations avant notre naissance. "
-"<br><br>Mon but, c'est de changer le monde autant que possible, résoudrant des problèmes simples pour enfin résoudre les plus complexes. "
+msgstr ""
+"Je suis actuellement étudiant en licence d'informatique à l'University of South Carolina. "
+"Je recevrai mon diplôme en mai 2020, mais subsequémment je continuerai mes études pendant un an à la poursuite d'un master. <br><br>"
+"Je m'interesse à l'ingénerie logicielle en général, et je suis expérimenté en développement mobile, web, et UI, mais j'ai "
+"des intérêts spéciaux en intelligence artificielle, dans la construction des compilateurs, et dans la thérorie algorithmique. <br><br>"
+"Mes intérêts comprennent l'étude des langues étrangères (comme celle-ci), la cuisine, et jouer du piano. "
+"Je suis aussi un peu compétitif et je profite souvent de jouer aux jeux-vidéos multijouer. "
 
-#: templates/index.html:134
+#: templates/index.html:168
 msgid "showcase"
 msgstr "Travaux"
 
-#: templates/index.html:136
-msgid "Web dev"
-msgstr "Dév web"
+#: templates/index.html:170
+msgid "Recent work"
+msgstr "Travaux récents"
 
-#: templates/index.html:137
-msgid "Data science"
-msgstr "Biologie"
+#: templates/index.html:171
+msgid "Earlier work"
+msgstr "Travaux anciens"
 
-#: templates/index.html:138
+#: templates/index.html:172
 msgid "Graphic design"
 msgstr "Graphisme"
 
-#: templates/index.html:151
-msgid "curriculumx_info"
+#: templates/index.html:185
+msgid "asterion_info"
 msgstr ""
-"Créé avec <b>django</b> et <b>UIKit</b>, CurriculumX sert à aider des "
-"enseignants à trouver des leçons standarisées en accord avec l'état. J'ai"
-" écrit le côté serveur en Python et quelques parties du côté visuel avec "
-"l'aide d'UIKit. "
+"En été 2019, j'ai vécu et travaillé dans l'ouest de la France en tant que stagier chez Astérion VR. "
+"C'est là où j'ai développé une implémentation d'un système avancé d'IU en C++, intégré dans le moteur Unreal. "
+"Cette IU servira des anti-terroristes français à l'entraînement pour l'extraction des otages pendant des moments cruciaux. "
 
-#: templates/index.html:161
-msgid "dr_vasquez_info"
-msgstr ""
-"Au début, on m'a chargé de convertir des applications MATLAB pour "
-"internet. Néanmoins, vu que le site de Dr. Vasquez était obsolète, "
-"j'étais chargé de tout reproduire, en utilisant <b>Bootstrap</b> et "
-"<b>Plotly.js</b>."
 
-#: templates/index.html:186
+#: templates/index.html:199
 msgid "protein_folding_info"
 msgstr ""
 "Je suis actuellement chargé d'optimiser et de faciliter l'utilisation "
@@ -93,7 +82,7 @@ msgstr ""
 "configuration. De plus, je travaille actuellement à développer une GUI en"
 " Python pour utiliser REDCRAFT plus facilement. "
 
-#: templates/index.html:195
+#: templates/index.html:212
 msgid "yeast_genome_info"
 msgstr ""
 "Une visualisation du génome de levure hébergée sur ce site, programmée en"
@@ -101,93 +90,123 @@ msgstr ""
 "utilisé <b>Pandas</b>, <b>Numpy</b>, et <b>Scipy</b> pour la manipulation"
 " des données."
 
-#: templates/index.html:213
+#: templates/index.html:225
+msgid "dr_vasquez_info"
+msgstr ""
+"Au début, on m'a chargé de convertir des applications MATLAB pour "
+"internet. Néanmoins, vu que le site de Dr. Vasquez était obsolète, "
+"j'étais chargé de tout reproduire, en utilisant <b>Bootstrap</b> et "
+"<b>Plotly.js</b>."
+
+#: templates/index.html:244
 msgid "portfolio_link"
 msgstr "Portfolio de graphisme"
 
-#: templates/index.html:214
+#: templates/index.html:245
 msgid "portfolio_info"
 msgstr ""
 "Je fais du graphisme volontairement depuis de nombreuses années chez "
 "Donate Life,  pour promouvoir la donation d'organes et de tissus en "
 "Caroline du Sud. Mon portfolio contient aussi quelques travaux personels."
 
-#: templates/index.html:227
+#: templates/index.html:258
 msgid "education_experience"
 msgstr "Éducation et Expérience"
 
-#: templates/index.html:229
+#: templates/index.html:260
 msgid "Class of 2020"
 msgstr "Terminant en 2020"
 
-#: templates/index.html:229
+#: templates/index.html:260
 msgid "usc_info"
 msgstr "Licence Science Informatique - University of South Carolina"
 
-#: templates/index.html:230 templates/index.html:231
+#: templates/index.html:261 templates/index.html:262
 msgid "2018 - Now"
 msgstr "2018 - Aujourd'hui"
 
-#: templates/index.html:230
+#: templates/index.html:261
 msgid "valafar_datascience"
 msgstr "Assistant de Recherche - UofSC Computational Biology"
 
-#: templates/index.html:231
+#: templates/index.html:262
 msgid "curriculumx_fullstack"
 msgstr "Développeur Fullstack - CurriculumX"
 
-#: templates/index.html:232
+#: templates/index.html:263
 msgid "2010 - Now"
 msgstr "2010 - Aujourd'hui"
 
-#: templates/index.html:232
+#: templates/index.html:263
 msgid "donatelife_volunteer"
 msgstr "Volontaire - Donate Life South Carolina"
 
-#: templates/index.html:233
+#: templates/index.html:264
 msgid "mathdep_datascience"
 msgstr "Scientifique de données - Département de Maths"
 
-#: templates/index.html:234
+#: templates/index.html:265
 msgid "mathdep_web"
 msgstr "Développeur Web - Département de Maths"
 
-#: templates/index.html:235
+#: templates/index.html:266
 msgid "Class of 2016"
 msgstr "Diplômé en 2016"
 
-#: templates/index.html:235
+#: templates/index.html:266
 msgid "highschool"
 msgstr "au lycée - Wade Hamption High School"
 
-#: templates/index.html:239
+#: templates/index.html:270
 msgid "languages"
 msgstr "Compétences"
 
-#: templates/index.html:241
+#: templates/index.html:272
+msgid "haskell_description"
+msgstr "Je suis compétent en Haskell, l'ayant utilisé pour développer un interpréteur basique. "
+
+#: templates/index.html:273
 msgid "python_description"
 msgstr "Compétence en Python et Django, les ayant utilisé pour plusieurs projets."
 
-#: templates/index.html:242
+#: templates/index.html:274
+msgid "cpp_description"
+msgstr "C'est le langage que je connais le mieux, l'ayant utilisé le plus pour mon travail. "
+
+#: templates/index.html:275
 msgid "js_description"
 msgstr "Compétence en JavaScript de base, et apprentissage de React/Redux."
 
-#: templates/index.html:243
-msgid "java_description"
-msgstr "Maîtrise très bien Java, et connaissance en Play! Framework"
-
-#: templates/index.html:244
-msgid "scala_description"
-msgstr "Compétence en Scala et dans le domaine de FP (Functional Programming)."
-
-#: templates/index.html:245
+#: templates/index.html:276
 msgid "French"
 msgstr "Français"
 
-#: templates/index.html:245
+#: templates/index.html:276
 msgid "french_description"
-msgstr "Je parle français au niveau C1, mais à l'écrit je suis niveau C2."
+msgstr "Je parle couramment français et je peux facilement communiquer dans des situations professionelles."
 
 #~ msgid "Web Stack"
 #~ msgstr "HTML/CSS/JS"
+
+#~ msgid "curriculumx_info"
+#~ msgstr ""
+#~ "Créé avec <b>django</b> et <b>UIKit</b>, "
+#~ "CurriculumX sert à aider des enseignants"
+#~ " à trouver des leçons standarisées en"
+#~ " accord avec l'état. J'ai écrit le"
+#~ " côté serveur en Python et quelques"
+#~ " parties du côté visuel avec l'aide"
+#~ " d'UIKit. "
+
+#~ msgid "java_description"
+#~ msgstr "Maîtrise très bien Java, et connaissance en Play! Framework"
+
+#~ msgid "scala_description"
+#~ msgstr "Compétence en Scala et dans le domaine de FP (Functional Programming)."
+
+#~ msgid "Web dev"
+#~ msgstr "Dév web"
+
+#~ msgid "Data science"
+#~ msgstr "Biologie"
 

@@ -8,9 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="shortcut icon" href="static/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="static/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
+    <!-- 623fe4 -->
     <!-- UIKit CSS -->
-    <link rel="stylesheet" href="static/css/uikit.min.css">
+    <link rel="stylesheet" href="static/css/jrachele.css">
     <!-- UIKit JS -->
     <script src="static/js/uikit.min.js"></script>
     <script src="static/js/uikit-icons.min.js"></script>
@@ -36,8 +54,8 @@
             </div>
         </nav> -->
 
-        <div class="uk-margin-large-left uk-margin-large-right uk-margin-medium-top">
-            <div class="uk-card uk-card-muted uk-card-body uk-box-shadow-large">
+        <div class="uk-margin-large-left uk-margin-large-right">
+            <div class="uk-card uk-card-muted uk-card-hover uk-card-body">
                 <div class="uk-flex-middle" uk-grid>
                     <div class="uk-width-auto">
                         <img class="uk-border-circle" src="/static/img/self_portrait.png" style="width: 250px;">
@@ -45,6 +63,8 @@
                     <div class="uk-width-expand">
                         <div class="uk-flex uk-flex-column">
                             <div>
+                                <a href="static/pdf/resume.pdf" class="uk-icon-button uk-margin-small-right"
+                                    uk-icon="file-pdf"></a>
                                 <a href="https://www.github.com/jrachele" class="uk-icon-button uk-margin-small-right"
                                     uk-icon="github"></a>
                                 <a href="https://www.linkedin.com/in/jrachele" class="uk-icon-button uk-margin-small-right"
@@ -90,10 +110,18 @@
             </div>
         </div>
 
-        <div class="uk-margin-large-left uk-margin-large-right uk-margin-small-top uk-margin-bottom">
+        <div>
             <div class="uk-position-relative uk-visible-toggle" uk-slideshow="animation: push; autoplay: true; autoplay-interval: 7000; min-height: 300; max-height: 600">
 
                 <ul class="uk-slideshow-items">
+                    <li>
+                        <div class="uk-position-cover uk-animation-kenburns uk-transform-origin-center-left">
+                            <img src="static/img/asterion_preview.jpg" alt="" uk-cover>
+                        </div>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                            <h3 class="uk-margin-remove">Astérion VR</h3>
+                        </div>
+                    </li>
                     <li>
                         <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
                             <img src="static/img/redcraft_preview.png" alt="" uk-cover>
@@ -109,14 +137,6 @@
 
                         <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                             <h3 class="uk-margin-remove">{{ _('yeast_genome_link') }}</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="uk-position-cover uk-animation-kenburns uk-transform-origin-center-left">
-                            <img src="static/img/curriculumx_preview.png" alt="" uk-cover>
-                        </div>
-                        <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                            <h3 class="uk-margin-remove">CurriculumX</h3>
                         </div>
                     </li>
                     <li>
@@ -144,13 +164,13 @@
             <div class="uk-child-width-1-2@l uk-margin-remove-left" uk-grid>
                 <div class="uk-card uk-card-muted uk-dark uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-fade; repeat: true">
                     <h1 class="uk-heading-primary">{{ _('About Me') }}</h1>
-                    <p>{{ _('about_me_description') }}</p>
+                    <p style="font-size: 18px">{{ _('about_me_description') }}</p>
                 </div>
                 <div class="uk-card uk-card-primary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-fade; repeat: true">
                     <h2>{{ _('showcase') }}</h2>
                     <ul class="uk-child-width-expand" uk-tab>
-                        <li class="uk-active"><a href="#">{{ _('Web dev') }}</a></li>
-                        <li><a href="#">{{ _('Data science') }}</a></li>
+                        <li class="uk-active"><a href="#">{{ _('Recent work') }}</a></li>
+                        <li><a href="#">{{ _('Earlier work') }}</a></li>
                         <li><a href="#">{{ _('Graphic design') }}</a></li>
                     </ul>
                     <ul class="uk-switcher uk-margin">
@@ -159,34 +179,16 @@
                                 <li>
                                     <div class="uk-flex-middle" uk-grid>
                                         <div class="uk-width-auto">
-                                            <a href="https://www.curriculumx.org"><img src="/static/img/cx_square_white.png"
-                                                    style="width: 250px;"></a>
+                                            <a href="https://asterionvr.com/"><img src="/static/img/asterion.png"
+                                                    style="width: 150px;"></a>
                                         </div>
                                         <div class="uk-width-expand">
-                                            <p><a href="https://www.curriculumx.org/">CurriculumX.org</a> -
-                                                {{ _('curriculumx_info')}}
+                                            <p><a href="https://asterionvr.com/">Astérion VR</a> -
+                                                {{ _('asterion_info')}}
                                             </p>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="uk-margin-top">
-                                    <div class="uk-flex-middle" uk-grid>
-                                        <div class="uk-width-expand">
-                                            <p><a href="http://people.math.sc.edu/vasquezp">{{ _('dr_vasquez_site') }}</a>
-                                                -
-                                                {{ _('dr_vasquez_info') }}
-                                            </p>
-                                        </div>
-                                        <div class="uk-width-auto">
-                                            <a href="http://people.math.sc.edu/vasquezp"><img src="/static/img/usc_logo.png"
-                                                    style="width: 250px;"></a>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="uk-list uk-list-divider">
                                 <li>
                                     <div class="uk-flex-middle" uk-grid>
                                         <div class="uk-width-auto">
@@ -201,6 +203,10 @@
                                         </div>
                                     </div>
                                 </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="uk-list uk-list-divider">
                                 <li class="uk-margin-top">
                                     <div class="uk-flex-middle" uk-grid>
                                         <div class="uk-width-expand">
@@ -209,7 +215,21 @@
                                             </p>
                                         </div>
                                         <div class="uk-width-auto">
-                                            <a href="research"><img src="/static/img/plotly_logo.png" style="width: 250px;"></a>
+                                            <a href="research"><img src="/static/img/plotly_logo.png" style="width: 150px;"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="uk-margin-top">
+                                    <div class="uk-flex-middle" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <p><a href="http://people.math.sc.edu/vasquezp">{{ _('dr_vasquez_site') }}</a>
+                                                -
+                                                {{ _('dr_vasquez_info') }}
+                                            </p>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <a href="http://people.math.sc.edu/vasquezp"><img src="/static/img/usc_logo.png"
+                                                    style="width: 250px;"></a>
                                         </div>
                                     </div>
                                 </li>
@@ -233,7 +253,7 @@
                 </div>
             </div>
         </div>
-        <div class="uk-margin-large-left uk-margin-large-right uk-margin-small-top uk-margin-bottom">
+        <div>
             <div class="uk-card uk-card-secondary uk-light uk-card-hover uk-card-body" uk-scrollspy="cls: uk-animation-fade; repeat: true">
                 <div class="uk-child-width-1-2@l uk-margin-remove-left" uk-grid>
                     <div>
@@ -241,7 +261,6 @@
                         <ul class="uk-list uk-list-divider">
                             <li><b>{{ _('Class of 2020') }}</b> {{ _('usc_info') }}</li>
                             <li><b>{{ _('2018 - Now') }}</b> {{ _('valafar_datascience') }}</li>
-                            <li><b>{{ _('2018 - Now') }}</b> {{ _('curriculumx_fullstack') }}</li>
                             <li><b>{{ _('2010 - Now') }}</b> {{ _('donatelife_volunteer') }}</li>
                             <li><b>2018</b> {{ _('mathdep_datascience') }}</li>
                             <li><b>2017</b> {{ _('mathdep_web') }}</li>
@@ -251,10 +270,10 @@
                     <div>
                         <h2>{{ _('languages') }}</h2>
                         <ul class="uk-list uk-list-divider">
+                            <li><i>Haskell</i> - {{ _('haskell_description') }}</li>
                             <li><i>Python/Django</i> - {{ _('python_description') }}</li>
+                            <li><i>C++</i> - {{ _('cpp_description') }}</li>
                             <li><i>JavaScript/React</i> - {{ _('js_description') }}</li>
-                            <li><i>Java</i> - {{ _('java_description') }}</li>
-                            <li><i>Scala/FP</i> - {{ _('scala_description') }}</li>
                             <li><i>{{ _('French') }}</i> - {{ _('french_description') }}</li>
                         </ul>
                     </div>
